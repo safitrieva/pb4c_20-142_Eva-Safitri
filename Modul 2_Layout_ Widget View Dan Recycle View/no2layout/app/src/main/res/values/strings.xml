@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LinearLayout</string>
+    <string name="btnL1">btn L1</string>
+    <string name="btnL2">btn L2</string>
+    <string name="btnL3">btn L3</string>
+    <string name="btnR1">btn R1</string>
+    <string name="btnR2">btn R2</string>
+    <string name="btnR3">btn R3</string>
+    <string name="btnR4">btn R4</string>
+    <string name="tvNama">Nama :</string>
+    <string name="nama">EVA SAFITRI</string>
+    <string name="tvNim">NIM :</string>
+    <string name="nim">200441100142</string>
+    <string name="todo">TODO</string>
+</resources>

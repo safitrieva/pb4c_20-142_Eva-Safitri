@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tittle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/design_default_color_secondary"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="my profile"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/img"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="20sp"
+        android:background="@color/design_default_color_secondary"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="@string/string_name"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/n0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/design_default_color_secondary"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="@string/n0"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Prodi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/design_default_color_secondary"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="@string/Prodi"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/design_default_color_secondary"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="@string/ALAMAT"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/motto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/design_default_color_secondary"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="@string/motto"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ucapan"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_marginTop="5dp"
+        android:background="@color/design_default_color_secondary"
+        android:fontFamily="times"
+        android:text="TUGAS PRAKTIKUM MODUL1"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+</LinearLayout>
