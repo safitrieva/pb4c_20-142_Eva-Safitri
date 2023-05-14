@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ukuran">90dp</dimen>
+    <dimen name="size">90dp</dimen>
+    <dimen name="size1">90dp</dimen>
+    <dimen name="dimens">20dp</dimen>
+</resources>

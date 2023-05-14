@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Whatsapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kamera">Kamera</string>
+    <string name="search">search</string>
+    <string name="more">more</string>
+    <string name="_20_00">20:00</string>
+    <string name="chat1">Semangat Kuliah ya</string>
+    <string name="nameprofile">Mbak Nana</string>
+    <string name="kalimat">ini gambar foto profil</string>
+    <string name="jam">baru saja</string>
+    <string name="chatt2">Ojok stress bro</string>
+    <string name="nama">Iqbaale</string>
+    <string name="waktupost">hari ini 07:00</string>
+    <string name="namachat2">Nana</string>
+    <string name="namachat3">Mbak Raisa</string>
+    <string name="pp1">ini foto profile</string>
+    <string name="status">Status Saya</string>
+    <string name="ketukdulu">Ketuk untuk menambahkan pembaruan status</string>
+    <string name="pembaruan">Pembaruan yang dilihat</string>
+    <string name="ini">ini status iqbaal</string>
+    <string name="status1">iqbaale</string>
+    <string name="waktu">2 Menit yang lalu</string>
+    <string name="inistatus">ini statusnya mbak nana</string>
+    <string name="tautan">Buat Tautan Panggilan</string>
+    <string name="chattt2">apa kabar sayang?</string>
+    <string name="pagi">07:00</string>
+    <string name="bagikantautan">Bagikan Tautan Untuk Panggilan WhatsApps Saja</string>
+</resources>

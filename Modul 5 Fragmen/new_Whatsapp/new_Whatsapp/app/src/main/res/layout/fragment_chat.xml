@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/nana"
+            tools:ignore="InefficientWeight"
+            android:contentDescription="@string/kalimat">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingStart="@dimen/ukuran"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameprofile"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat1"
+            android:textSize="17sp"
+           android:paddingTop="0dp"
+            android:textColor="#515151"
+            android:paddingBottom="30dp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jam"
+            android:textSize="10sp"
+            android:paddingTop="25dp"
+            android:textColor="#515151"
+            android:paddingBottom="30dp"
+            android:paddingStart="310dp"
+            tools:ignore="RtlSymmetry,SmallSp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/raisa"
+            tools:ignore="InefficientWeight"
+            android:contentDescription="@string/kalimat">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="80dp"
+        android:paddingStart="@dimen/ukuran"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/namachat3"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chattt2"
+            android:textSize="17sp"
+            android:paddingTop="0dp"
+            android:textColor="#515151"
+            android:paddingBottom="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pagi"
+            android:textSize="10sp"
+            android:paddingTop="30dp"
+            android:textColor="#515151"
+            android:paddingBottom="30dp"
+            android:paddingStart="320dp"
+            tools:ignore="RtlSymmetry,SmallSp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:contentDescription="@string/nameprofile"
+            android:src="@drawable/iiq" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="140dp"
+        android:paddingStart="90dp"
+        tools:ignore="RtlSymmetry">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chatt2"
+            android:textSize="17sp"
+            android:paddingTop="0dp"
+            android:textColor="#515151"
+            android:paddingBottom="30dp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:paddingTop="38dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_20_00"
+            android:textSize="10sp"
+            android:paddingTop="25dp"
+            android:textColor="#515151"
+            android:paddingBottom="30dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="320dp"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+</RelativeLayout>

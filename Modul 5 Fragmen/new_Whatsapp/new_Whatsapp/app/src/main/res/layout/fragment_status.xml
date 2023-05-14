@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatusFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:src="@drawable/sehun"
+            android:contentDescription="@string/pp1"
+            tools:ignore="InefficientWeight,UnusedAttribute"
+            tools:targetApi="p" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingStart="@dimen/size1"
+        tools:ignore="RtlSymmetry">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/waktupost"
+            android:textSize="13sp"
+            android:paddingTop="5dp"
+            android:textColor="#515151"
+            android:paddingBottom="30dp">
+        </TextView>
+    </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="90dp"
+      android:paddingStart="@dimen/dimens"
+      android:orientation="vertical"
+      tools:ignore="RtlSymmetry">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/pembaruan"
+          android:textStyle="bold"
+          android:textSize="12sp" />
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/iiq"
+            android:contentDescription="@string/ini" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="135dp"
+        android:paddingStart="90dp"
+        tools:ignore="RtlSymmetry">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status1"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/waktu"
+            android:textSize="17sp"
+            android:paddingTop="3dp"
+            android:textColor="#515151"
+            android:paddingBottom="30dp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/nana"
+            android:contentDescription="@string/inistatus"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="200dp"
+        android:paddingStart="@dimen/size"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/namachat2"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/waktupost"
+            android:textSize="17sp"
+            android:paddingTop="3dp"
+            android:textColor="#515151"
+            android:paddingBottom="30dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
