@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    tools:context=".Settings">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:gravity="center_vertical">
+                <LinearLayout
+                    android:layout_marginStart="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <RadioButton
+                        android:layout_width="48dp"
+                        android:layout_height="30dp"
+                        android:orientation="vertical"
+                        tools:ignore="UselessLeaf"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:ignore="UselessLeaf" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="@string/eva_safitri"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="RtlHardcoded">
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="10sp"
+                        android:text="@string/email1"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="HardcodedText,SmallSp,SpUsage" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:gravity="center_vertical">
+                <LinearLayout
+                    android:layout_marginStart="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+
+                    <RadioButton
+                        android:layout_width="48dp"
+                        android:layout_height="30dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textColor="@color/black"
+                        android:text="@string/human2"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="10sp"
+                        android:text="@string/email2"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="SmallSp,SpUsage">
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:gravity="center_vertical">
+                <LinearLayout
+                    android:layout_marginStart="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <RadioButton
+                        android:layout_width="48dp"
+                        android:layout_height="30dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textColor="@color/black"
+                        android:text="@string/human3"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="RtlHardcoded">
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="10sp"
+                        android:text="@string/email3"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="SmallSp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:gravity="center_vertical">
+                <LinearLayout
+                    android:layout_marginStart="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <RadioButton
+                        android:layout_width="48dp"
+                        android:layout_height="30dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textColor="@color/black"
+                        android:text="@string/human4"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="RtlHardcoded">
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="10sp"
+                        android:text="@string/email4"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="SmallSp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:gravity="center_vertical">
+                <LinearLayout
+                    android:layout_marginStart="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <RadioButton
+                        android:layout_width="48dp"
+                        android:layout_height="30dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textColor="@color/black"
+                        android:text="@string/human5"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="RtlHardcoded">
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="10sp"
+                        android:text="@string/email5"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="SmallSp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:gravity="center_vertical">
+                <LinearLayout
+                    android:layout_marginStart="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <RadioButton
+                        android:layout_width="48dp"
+                        android:layout_height="30dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textColor="@color/black"
+                        android:text="@string/human6"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="RtlHardcoded">
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="10sp"
+                        android:text="@string/email6"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        tools:ignore="SmallSp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+</FrameLayout>

@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    override fun onOptionsItemSelected(item: MenuItem): Boolean { //*untuk menangani event ketika user memilih sebuah item pada menu options.
        when(item.itemId){
            R.id.kamera-> Toast.makeText(this, "Kamu menekan Kamera",Toast.LENGTH_SHORT).show()
            R.id.search-> Toast.makeText(this, "Kamu menekan Search",Toast.LENGTH_SHORT).show()

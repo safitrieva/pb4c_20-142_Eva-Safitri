@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BTMNVGTN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="baru_saja">baru saja</string>
+    <string name="human1">Mbak Najwa</string>
+    <string name="pembaruan_status">Pembaruan Status</string>
+    <string name="status_saya">Status saya</string>
+    <string name="waktu_saya">3 jam yang lalu</string>
+    <string name="akunsaya">Eva Safitri</string>
+    <string name="emailsaya">evhaasafitri@gmail.com</string>
+    <string name="setelan">Setelan</string>
+    <string name="setting">Setelan Umum</string>
+    <string name="email1">Evhaasafitri@gmail.com</string>
+    <string name="email3">kjul@gmail.com</string>
+    <string name="human3">Eka Julianti</string>
+    <string name="email2">Maulidafahri123@gmail.com</string>
+    <string name="human2">Maulida Fahri</string>
+    <string name="email4">puspitaasari23@fmail.com</string>
+    <string name="human4">Anggita Puspita Sari</string>
+    <string name="email5">Mierhami Husnia </string>
+    <string name="human5">Ummikhana@gmail.com</string>
+    <string name="email6">Muhammad Iqbaal Alamsyah</string>
+    <string name="human6">iqbaalalamsyahmhmd@gmail.com</string>
+    <string name="akun">Akun</string>
+    <string name="human">Mbak Najwa</string>
+    <string name="eva_safitri">Eva safitri</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="sett">Settings</string>
+</resources>
